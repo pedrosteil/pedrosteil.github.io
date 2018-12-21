@@ -1,10 +1,184 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-      <head>
-        <title>Título da página</title>
-        <meta charset="utf-8">
-      </head>
-      <body>
-        Aqui vai o código HTML que fará seu site aparecer.
-      </body>
-    </html>
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Pedro Steil</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="css.css">
+            
+        </head>
+        
+        <body>
+            
+              <header id="js-header">
+                  <div class="container">
+                      <h1 id="logo">Pedro Steil</h1>
+                      <nav>
+                          <a href="index.html">Sobre mim</a>
+                          <a href="#formacao">Formação</a>
+                          <a href="#habilidades">Habilidades</a>
+                      </nav>
+                  </div>
+              </header>
+
+              <div id="main">
+                  <div id="content">
+                      <section>
+                          <center>
+                              <div class="stars" id="inicio">
+                                  <div class="circle">
+                                      <img src="Imagens/eu.jpg" alt="euzinho"”>
+                                  </div>                              
+                                  <h1 id ="intro">Oi, meu nome é Pedro Steil</h1>
+                                  <p>Tenho 20 anos e sou de Blumenau, SC.</p> 
+                                  <p>Sou aluno de Sistemas de Informação, na Universidade Federal de Santa Catarina.</p>
+                              </div>
+                              </center>
+                      </section>
+                      <section class="color">
+                          <div class="container" id="formacao">
+                              <h1>Formação</h1>
+                              <p> &#9679; 4o Semestre em Sistemas de Informação - UFSC </p>
+                              <p> &#9679; Desenvolvimento em Java - Blusoft</p>
+                              <p> &#9679; Dev na prática - Senior Sistemas</p>
+                              <p> &#9679; Arduino aplicado à Mecatrônica - SENAI</p>
+                          </div>
+                      </section>
+                     
+                      
+                      <section>
+                          <div class="container" id="habilidades">
+                              <h1>Habilidades</h1>
+                              <p>Java</p>
+                                <div class="container">
+                                  <div class="skills java">75%</div>
+                                </div>
+                              
+                                <p>HTML5</p>
+                                <div class="container">
+                                  <div class="skills html">45%</div>
+                                </div>
+
+                                <p>CSS</p>
+                                <div class="container">
+                                  <div class="skills css">50%</div>
+                                </div>
+
+                                <p>Java Spring</p>
+                                <div class="container">
+                                  <div class="skills spring">60%</div>
+                                </div>
+                              
+                                <p>Dark Souls</p>
+                                <div class="container">
+                                  <div class="skills dark">94%</div>
+                              </div>     
+                          </div>
+                            <style>
+                                * {box-sizing: border-box}
+
+                                .container {
+                                  width: 100%;
+                                  
+                                  display: relative;
+                                }
+
+                                .skills {
+                                  text-align: right;
+                                  padding-right: 20px;
+                                  line-height: 40px;
+                                  color: white;
+                                }
+
+                                .java {
+                                  width: 75%; 
+                                  background-color: #112F41; 
+                                  display: inline-block;
+                                  animation: java 2s ease-out;
+                                }
+
+                                .html {
+                                  width: 45%; 
+                                  background-color: #068587;
+                                  animation: hmtl 2s ease-out;
+                                }
+                                .css {
+                                  width: 50%; 
+                                  background-color: #4FB99F;
+                                  animation: css 2s ease-out;
+                                }
+                                .spring {
+                                  width: 60%; 
+                                  background-color: #F2B134;
+                                  animation: spring 2s ease-out;
+                                }
+                                .dark {
+                                  width: 94%; 
+                                  background-color: #ED553B;
+                                  animation: dark 2s ease-out;
+                                }
+                                @keyframes java {
+                                  0% {
+                                    width: 0px;
+                                  }
+                                  100% {
+                                    width: 75%;
+                                  }
+                                }
+                                @keyframes html {
+                                  0% {
+                                    width: 0px;
+                                  }
+                                  100% {
+                                    width: 45%;
+                                  }
+                                }
+                                @keyframes css {
+                                  0% {
+                                    width: 0px;
+                                  }
+                                  100% {
+                                    width: 50%;
+                                  }
+                                }
+                                @keyframes spring {
+                                  0% {
+                                    width: 0px;
+                                  }
+                                  100% {
+                                    width: 60%;
+                                  }
+                                }
+                                @keyframes dark {
+                                  0% {
+                                    width: 0px;
+                                  }
+                                  100% {
+                                    width: 94%;
+                                  }
+                                }
+                          
+                          </style>
+                      </section>
+                      
+                      
+                                            
+                 </div>
+              </div>
+               <footer>
+                    <div class="container clearfix">
+                      <div  class ="col" id="col-2">
+                        <ul>
+                          <li>Contato</li>
+                          <li><a href="http://www.fb.com/pedropcsteil" target="window">Facebook</a></li>      
+                          <li><a href="https://www.linkedin.com/in/pedro-paulo-steil-548293146/" target="window">LinkedIn</a></li>
+                          <li><a href="#0">pedrosteil@live.com</a></li>
+                           
+                        </ul>
+                      </div>
+                      
+                      <div id="copy">&#xa9; Built by Pedro Steil - 2018</div>
+                    </div>
+              </footer>
+
+        </body>
+</html>
